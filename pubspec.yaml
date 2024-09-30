@@ -36,6 +36,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   flutter_native_splash: ^2.4.1
+  url_launcher: ^6.3.0
 
 
 dev_dependencies:
@@ -80,6 +81,10 @@ flutter:
     - family: Mtavruli
       fonts:
         - asset: assets/fonts/alk-rounded-georgian.ttf
+          style: normal
+    - family: Georgian2
+      fonts:
+        - asset: assets/fonts/Georgian2.ttf
           style: normal
   
   # For details regarding fonts from package dependencies,

@@ -1,4 +1,5 @@
 import 'package:damalobana/pages/splash_page.dart';
+import 'package:damalobana/themes/theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,10 +11,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Damalobana',
+      theme: AppTheme.theme,
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: const SplashScreen(),
     );
   }
 }
